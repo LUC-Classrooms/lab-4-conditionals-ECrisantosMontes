@@ -5,13 +5,12 @@ _Make a P5 sketch interactive with if() else_
 In this lab, we see the following block of code already set up for you in the ```draw()``` function:
 
 ```javascript
-  if(mouseIsPressed){ // true or false?
-    // if true, change the fill color here
-    
+  if(mouseIsPressed){// true or false?
+  // if true change color here
   }
   else { 
     // otherwise do this:
-    
+    fill(255, 200, 0);
   }
   ellipse(width/2, height/2, 100, 100);
 ```
